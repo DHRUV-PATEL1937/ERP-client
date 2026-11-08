@@ -3,6 +3,7 @@ import { createBrowserRouter, Link } from "react-router-dom";
 import ProtectedRoute from "./ProtectedRoute";
 import Shell from "../components/layout/Shell";
 import LoginPage from "../features/auth/LoginPage";
+import { Empty, PageHeader } from "../components/ui";
 const CustomerPortalPage = lazy(() => import("../features/customer/CustomerPortalPage"));
 const PublicSitePage = lazy(() => import("../features/public/PublicSitePage"));
 const SubmissionsPage = lazy(() => import("../features/public/SubmissionsPage"));
@@ -88,6 +89,17 @@ export const router = createBrowserRouter([
           { path: "documents/:id", element: lazyScreen(DocumentPage) },
           { path: "demand", element: <DemandPage /> },
           { path: "reports", element: lazyScreen(FinancialReportPage) },
+          {
+            path: "produce",
+            element: (
+              <>
+                <PageHeader eyebrow="PRODUCE" title="Our harvest" />
+                <section className="panel">
+                  <Empty title="Coming soon" text="Harvest information will appear here when it is available." />
+                </section>
+              </>
+            ),
+          },
           { path: "settings", element: <SettingsPage /> },
           { path: "users", element: lazyScreen(UsersPage) },
           { path: "handbook", element: <HandbookPage /> },

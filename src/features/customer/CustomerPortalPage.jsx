@@ -4,23 +4,23 @@ import { money, date } from "../../lib/format";
 import "./customer.css";
 import photos from "./catalogue-images.json";
 import CatalogueCard from "./CatalogueCard";
+import { apiBase } from "../../lib/api";
 import { ShoppingBasket, Search, Star, History, CircleHelp, LogOut, Leaf, ArrowLeft, X } from "lucide-react";
 const sectionIcon = name => /herb/i.test(name) ? "🌿" : /fruit|berr/i.test(name) ? "🍓" : /leaf|green/i.test(name) ? "🥬" : /mushroom/i.test(name) ? "🍄" : /dairy/i.test(name) ? "🧀" : /vegetable/i.test(name) ? "🥕" : "🧺";
 const aliases = { "fresh basil":"Basil", "baby spinach":"Spinach Baby", "heirloom tomatoes":"Tomatos Round", "alphonso mangoes":"Mango Ripe Kp", "avocados":"Avocadoes", "organic carrots":"Carrot Large" };
 const photoFor = p => photos.find(photo => photo.name.toLowerCase() === (aliases[p.name.toLowerCase()] || p.name).toLowerCase())?.image;
 
-const base = import.meta.env.VITE_API_BASE_URL;
 const tokenKey = "harvest-customer-session";
 async function request(path, { body, method = "GET", key } = {}) {
   const token = sessionStorage.getItem(tokenKey);
-  const response = await fetch(base + "/customer" + path, { method, headers: { "Content-Type": "application/json", ...(token ? { Authorization: "Bearer " + token } : {}), ...(key ? { "Idempotency-Key": key } : {}) }, ...(body ? { body: JSON.stringify(body) } : {}) });
+  const response = await fetch(apiBase + "/customer" + path, { method, headers: { "Content-Type": "application/json", ...(token ? { Authorization: "Bearer " + token } : {}), ...(key ? { "Idempotency-Key": key } : {}) }, ...(body ? { body: JSON.stringify(body) } : {}) });
   const result = await response.json().catch(() => ({ error: { message: "The API is unavailable. Please try again." } }));
   if (!response.ok) { if (response.status === 401 && path !== "/login") { sessionStorage.removeItem(tokenKey); window.dispatchEvent(new Event("customer-expired")); } throw new Error(result.error?.message || "Request failed"); }
   return result.data;
 }
 export default function CustomerPortalPage() {
   const [session, setSession] = useState(null), [catalog, setCatalog] = useState([]), [orders, setOrders] = useState([]), [saved, setSaved] = useState([]);
-  const [code, setCode] = useState(""), [emailMode, setEmailMode] = useState(false), [email, setEmail] = useState(""), [password, setPassword] = useState("");
+  const [code, setCode] = useState("");
   const [busy, setBusy] = useState(false), [error, setError] = useState(""), [notice, setNotice] = useState(""), [view, setView] = useState("catalog");
   const [search, setSearch] = useState(""), [category, setCategory] = useState(""), [cart, setCart] = useState({}), [delivery, setDelivery] = useState(""), [notes, setNotes] = useState(""), [review, setReview] = useState(false), [listName, setListName] = useState("");
   const key = useRef(null), submitting = useRef(false), searchInput = useRef(null), basket = useRef(null);
@@ -42,10 +42,10 @@ export default function CustomerPortalPage() {
   useEffect(() => { key.current = null; setReview(false); }, [cart, delivery, notes]);
   async function login(e) {
     e.preventDefault(); setBusy(true); setError("");
-    try { const s = await request("/login", { method: "POST", body: emailMode ? { email, password } : { code } }); sessionStorage.setItem(tokenKey, s.token); setSession(s); await load(); }
+    try { const s = await request("/login", { method: "POST", body: { code } }); sessionStorage.setItem(tokenKey, s.token); setSession(s); await load(); }
     catch (e) { setError(e.message); } finally { setBusy(false); }
   }
-  async function logout() { try { await request("/logout", { method: "POST" }); } finally { sessionStorage.removeItem(tokenKey); setSession(null); setCart({}); setCatalog([]); setOrders([]); setSaved([]); setView("catalog"); setNotice(""); setError(""); setDelivery(""); setNotes(""); setReview(false); setCode(""); setPassword(""); setSearch(""); setCategory(""); setSelectedUnits({}); } }
+  async function logout() { try { await request("/logout", { method: "POST" }); } finally { sessionStorage.removeItem(tokenKey); setSession(null); setCart({}); setCatalog([]); setOrders([]); setSaved([]); setView("catalog"); setNotice(""); setError(""); setDelivery(""); setNotes(""); setReview(false); setCode(""); setSearch(""); setCategory(""); setSelectedUnits({}); } }
   async function run(action) { setError(""); setNotice(""); setBusy(true); try { await action(); } catch (e) { setError(e.message); } finally { setBusy(false); } }
   function fillCart(items) { setSavedOpen(false); setSelectedUnits(Object.fromEntries(catalog.map(p => [p.id, p.unitOptions?.find(option => option.factor === 1 && option.label === (p.unit === "piece" ? "each" : p.unit))?.label]))); const available = items.filter(l => catalog.some(p => p.id === String(l.product))); setCart(Object.fromEntries(available.map(l => [String(l.product), l.quantity]))); setView("catalog"); setNotice(available.length === items.length ? "Order loaded. Review quantities and choose a delivery day." : "Available items loaded. Some items are no longer sold."); }
   async function reviewOrder() {
@@ -57,7 +57,29 @@ export default function CustomerPortalPage() {
     await run(async () => { key.current ||= crypto.randomUUID(); const d = await request("/orders", { method: "POST", key: key.current, body: { lines, deliveryDate: new Date(delivery + "T12:00:00").toISOString(), notes } }); setCart({}); setReview(false); setNotes(""); await load(); setNotice("Order " + d.number + " submitted for confirmation."); setView("history"); });
     submitting.current = false;
   }
-  if (!session) return <main className="customer-login"><Link className="customer-brand" to="/market">Harvest <span>FARMERS MARKET</span></Link><div className="customer-login-grid"><section><p className="eyebrow">WHOLESALE ORDERING</p><h1>Fresh produce for your kitchen,<br/>ordered in a minute.</h1><p>Your own prices. Your usual order. Your delivery day.</p><Link to="/market/wholesale/apply">Apply for a wholesale account →</Link></section><form onSubmit={login}><h2>Welcome back</h2><p>Enter the ordering code supplied by your account manager.</p>{emailMode ? <><label>Email<input type="email" required value={email} onChange={e=>setEmail(e.target.value)}/></label><label>Password<input type="password" required value={password} onChange={e=>setPassword(e.target.value)}/></label></> : <label>Your ordering code<input autoComplete="off" required minLength={6} maxLength={12} value={code} onChange={e=>setCode(e.target.value.toUpperCase())}/></label>}{error && <p role="alert" className="customer-error">{error}</p>}<button disabled={busy}>{busy?"Checking…":"Start ordering →"}</button><button className="customer-text-button" type="button" onClick={()=>setEmailMode(!emailMode)}>{emailMode?"Use ordering code":"Use existing email account"}</button></form></div></main>;
+  if (!session) return (
+    <main className="customer-login">
+      <Link className="customer-brand" to="/market">Harvest <span>FARMERS MARKET</span></Link>
+      <div className="customer-login-grid">
+        <section>
+          <p className="eyebrow">WHOLESALE ORDERING</p>
+          <h1>Fresh produce for your kitchen,<br />ordered in a minute.</h1>
+          <p>Your own prices. Your usual order. Your delivery day.</p>
+          <Link to="/market/wholesale/apply">Apply for a wholesale account →</Link>
+        </section>
+        <form onSubmit={login}>
+          <h2>Welcome back</h2>
+          <p>Enter the ordering code supplied by your account manager.</p>
+          <label>
+            Your ordering code
+            <input autoComplete="off" required minLength={6} maxLength={12} value={code} onChange={event => setCode(event.target.value.toUpperCase())} />
+          </label>
+          {error && <p role="alert" className="customer-error">{error}</p>}
+          <button disabled={busy}>{busy ? "Checking…" : "Start ordering →"}</button>
+        </form>
+      </div>
+    </main>
+  );
   return <main className="customer-app">
     <header className="customer-top">
       <div className="customer-account"><Link to="/market" className="customer-mark" aria-label="Harvest market home"><Leaf size={28}/><i/></Link><div><small>GOOD {new Date().getHours()<12?"MORNING":new Date().getHours()<17?"AFTERNOON":"EVENING"} — ORDERING AS</small><h1>{session.customer.name}</h1></div></div>

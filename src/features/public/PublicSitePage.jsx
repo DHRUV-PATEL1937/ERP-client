@@ -2,11 +2,12 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import content from "./reference-content.json";
 import "./public.css";
+import { apiBase } from "../../lib/api";
 const nav=[["Our Farm","our-farm"],["Our Team","our-team"],["Sustainability","sustainability"],["Wholesale","wholesale-supply"],["FAQ","delivery-and-faq"],["Contact","contact"]];
 export default function PublicSitePage(){
   const location=useLocation(),path=location.pathname.replace(/^\/market/,"")||"/",ordering=location.pathname==="/ordering";
   const [message,setMessage]=useState(""),[busy,setBusy]=useState(false),[consent,setConsent]=useState(()=>localStorage.getItem("harvest-cookie-choice")),[photo,setPhoto]=useState(null);
-  async function send(e,kind){e.preventDefault();setMessage("");setBusy(true);const data=Object.fromEntries(new FormData(e.currentTarget));try{const r=await fetch(import.meta.env.VITE_API_BASE_URL+"/public/submissions",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({kind,...data})});const result=await r.json();if(!r.ok)throw new Error(result.error?.message||"Unable to send your request");setMessage(result.data.message);e.target.reset();}catch(x){setMessage(x.message)}finally{setBusy(false)}}
+  async function send(e,kind){e.preventDefault();setMessage("");setBusy(true);const data=Object.fromEntries(new FormData(e.currentTarget));try{const r=await fetch(apiBase+"/public/submissions",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({kind,...data})});const result=await r.json();if(!r.ok)throw new Error(result.error?.message||"Unable to send your request");setMessage(result.data.message);e.target.reset();}catch(x){setMessage(x.message)}finally{setBusy(false)}}
   function choice(v){localStorage.setItem("harvest-cookie-choice",v);setConsent(v)}
   const page=content[path],home=path==="/"||ordering;
   return <div className="market-site"><div className="market-strip">Proudly rooted by Gurudev Farms</div><header className="market-header"><Link to="/market"><img src="/reference/img-logo2.webp" alt="21 Ananta Farmers Market"/></Link><nav aria-label="Main website">{nav.map(([label,p])=><Link key={p} to={"/market/"+p}>{label}</Link>)}</nav><Link className="market-button" to="/customer">Enter ordering code →</Link></header><main id="main">

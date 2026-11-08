@@ -10,7 +10,7 @@ import {
   Plus,
   X,
   PanelLeftClose,
-  Grid2X2,
+  LayoutDashboard,
 } from "lucide-react";
 import { useAuth } from "../../app/providers";
 import { api } from "../../lib/api";
@@ -146,11 +146,11 @@ export default function Shell() {
               <Menu size={20} />
             </button>
             <Link
-              to="/apps"
-              title="All applications"
-              aria-label="All applications"
+              to="/"
+              title="Dashboard"
+              aria-label="Dashboard"
             >
-              <Grid2X2 size={17} />
+              <LayoutDashboard size={17} />
             </Link>
             <ChevronRight size={14} />
             {parent && (
@@ -203,7 +203,6 @@ export default function Shell() {
                     ["Supplier", "/suppliers?create=1"],
                     ["Purchase order", "/new/purchase-orders"],
                     ["Quote", "/new/quotes"],
-                    ["Expense", "/expenses?create=1"],
                   ].map(([name, path]) => (
                     <Link
                       key={path}

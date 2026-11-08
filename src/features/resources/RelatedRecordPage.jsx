@@ -168,9 +168,6 @@ export default function RelatedRecordPage() {
             <Link className="related-pill" to={`/invoices?contact=${id}`}>
               All invoices →
             </Link>
-            <Link className="related-pill" to="/credits">
-              Credit account →
-            </Link>
           </>
         ) : (
           <>
