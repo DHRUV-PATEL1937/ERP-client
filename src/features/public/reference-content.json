@@ -1,0 +1,1534 @@
+{
+  "/": {
+    "title": "Grown with patience. Picked for you.",
+    "blocks": [
+      {
+        "tag": "p",
+        "text": "Seasonal fruit and vegetables from our farm in Bullsbrook and a handful of trusted WA growers — harvested at peak ripeness for Perth kitchens, from home cooks to busy restaurants."
+      },
+      {
+        "tag": "img",
+        "src": "/reference/img-photos-farm-harvest.webp",
+        "alt": "Crates of produce being brought in by tractor on the farm"
+      },
+      {
+        "tag": "h2",
+        "text": "From the pass to the dinner table."
+      },
+      {
+        "tag": "h3",
+        "text": "Restaurants, cafés & grocers"
+      },
+      {
+        "tag": "p",
+        "text": "Reliable weekly supply of farm-fresh produce at wholesale prices, ordered in minutes through your own portal."
+      },
+      {
+        "tag": "li",
+        "text": " No lock-in contracts"
+      },
+      {
+        "tag": "li",
+        "text": " Delivered around your prep days"
+      },
+      {
+        "tag": "li",
+        "text": " Traceable from paddock to plate"
+      },
+      {
+        "tag": "h3",
+        "text": "Families & home cooks"
+      },
+      {
+        "tag": "p",
+        "text": "Seasonal boxes and pantry staples, delivered across Perth or ready to collect from the farm. Our online shop is opening soon."
+      },
+      {
+        "tag": "li",
+        "text": " Free delivery over $399"
+      },
+      {
+        "tag": "li",
+        "text": " Plastic-light packing"
+      },
+      {
+        "tag": "li",
+        "text": " Farm pickup in Bullsbrook"
+      },
+      {
+        "tag": "h2",
+        "text": "Everything good, sorted by the way you cook."
+      },
+      {
+        "tag": "p",
+        "text": "Our range moves with the calendar, so what we supply is genuinely what's at its best right now."
+      },
+      {
+        "tag": "img",
+        "src": "/reference/img-produce-leafy-greens.webp",
+        "alt": ""
+      },
+      {
+        "tag": "h3",
+        "text": "Leafy Greens"
+      },
+      {
+        "tag": "p",
+        "text": "Crisp lettuces, spinach, kale and Asian greens, cut fresh."
+      },
+      {
+        "tag": "img",
+        "src": "/reference/img-produce-seasonal-vegetables.webp",
+        "alt": ""
+      },
+      {
+        "tag": "h3",
+        "text": "Seasonal Vegetables"
+      },
+      {
+        "tag": "p",
+        "text": "The heart of the harvest — whatever's at its peak right now."
+      },
+      {
+        "tag": "img",
+        "src": "/reference/img-produce-orchard-fruit.webp",
+        "alt": ""
+      },
+      {
+        "tag": "h3",
+        "text": "Orchard Fruit"
+      },
+      {
+        "tag": "p",
+        "text": "Tree-ripened apples, pears, stone fruit and citrus."
+      },
+      {
+        "tag": "img",
+        "src": "/reference/img-produce-berries.webp",
+        "alt": ""
+      },
+      {
+        "tag": "h3",
+        "text": "Berries & Soft Fruit"
+      },
+      {
+        "tag": "p",
+        "text": "Sweet, fragrant and picked with care."
+      },
+      {
+        "tag": "img",
+        "src": "/reference/img-produce-herbs.webp",
+        "alt": ""
+      },
+      {
+        "tag": "h3",
+        "text": "Herbs & Aromatics"
+      },
+      {
+        "tag": "p",
+        "text": "Bunches of flavour for every kitchen."
+      },
+      {
+        "tag": "img",
+        "src": "/reference/img-produce-roots.webp",
+        "alt": ""
+      },
+      {
+        "tag": "h3",
+        "text": "Roots & Tubers"
+      },
+      {
+        "tag": "p",
+        "text": "Earthy staples pulled fresh from the soil."
+      },
+      {
+        "tag": "img",
+        "src": "/reference/img-photos-contact-market.webp",
+        "alt": "Crates of oranges and fresh produce on a market stall"
+      },
+      {
+        "tag": "h2",
+        "text": "Grown the way food should be."
+      },
+      {
+        "tag": "p",
+        "text": "We started 21 Ananta with one belief: produce tastes better when it's grown with patience and sold without the middle-man markup."
+      },
+      {
+        "tag": "h3",
+        "text": "Peak-season only"
+      },
+      {
+        "tag": "p",
+        "text": "We grow and source with the seasons — most flavour, best value."
+      },
+      {
+        "tag": "h3",
+        "text": "Kinder packing"
+      },
+      {
+        "tag": "p",
+        "text": "Recyclable, plastic-light packaging and reusable crates."
+      },
+      {
+        "tag": "h3",
+        "text": "Straight to you"
+      },
+      {
+        "tag": "p",
+        "text": "A short supply chain means fresher produce that lasts longer."
+      },
+      {
+        "tag": "h3",
+        "text": "Family run"
+      },
+      {
+        "tag": "p",
+        "text": "A small Australian family business you can actually talk to."
+      },
+      {
+        "tag": "h2",
+        "text": "From our paddock to your pass in four steps."
+      },
+      {
+        "tag": "h3",
+        "text": "Apply"
+      },
+      {
+        "tag": "p",
+        "text": "Fill in our short trade application. We verify your ABN and review within 1–2 business days."
+      },
+      {
+        "tag": "h3",
+        "text": "Get portal access"
+      },
+      {
+        "tag": "p",
+        "text": "Once approved, you'll receive your login for our wholesale ordering portal."
+      },
+      {
+        "tag": "h3",
+        "text": "Order online"
+      },
+      {
+        "tag": "p",
+        "text": "Pick quantities by the kilo, bunch or box and submit — or call us, we're flexible."
+      },
+      {
+        "tag": "h3",
+        "text": "We pick & deliver"
+      },
+      {
+        "tag": "p",
+        "text": "We harvest to your order, pack it fresh and deliver on your scheduled day."
+      },
+      {
+        "tag": "img",
+        "src": "/reference/img-photos-sustainability.webp",
+        "alt": "A historic photograph of a market garden"
+      },
+      {
+        "tag": "h2",
+        "text": "Good food shouldn't cost the earth."
+      },
+      {
+        "tag": "p",
+        "text": "Spray-conscious growing, plastic-light packing, reusable crates and a short supply chain. We're honest that we're at the start of the journey — and we share our progress season by season."
+      },
+      {
+        "tag": "h2",
+        "text": "Let's get fresh produce into your kitchen."
+      },
+      {
+        "tag": "p",
+        "text": "Tell us what you need — whether it's a weekly restaurant order or a question about this week's harvest."
+      }
+    ]
+  },
+  "/our-farm": {
+    "title": "A family, a patch of good earth, and a simple idea.",
+    "blocks": [
+      {
+        "tag": "p",
+        "text": "That food grown with patience and sold without the middle-man simply tastes better — and does more good."
+      },
+      {
+        "tag": "img",
+        "src": "/reference/img-photos-farm-harvest.webp",
+        "alt": "Freshly harvested produce"
+      },
+      {
+        "tag": "h2",
+        "text": "New roots, an endless commitment."
+      },
+      {
+        "tag": "p",
+        "text": "“Ananta” means endless — and that's how we think about caring for our soil, our growers and the people we feed."
+      },
+      {
+        "tag": "p",
+        "text": "21 Ananta Farmers Market is a young family venture. We grow seasonal fruit and vegetables on our own farmland in Bullsbrook, on Perth's northern fringe, and partner with trusted local growers to round out the harvest. Everything is chosen the way we'd choose it for our own kitchen table."
+      },
+      {
+        "tag": "p",
+        "text": "We're just getting started — and we'd love for you to grow with us."
+      },
+      {
+        "tag": "h2",
+        "text": "Values we won't compromise on"
+      },
+      {
+        "tag": "h3",
+        "text": "Grown with patience"
+      },
+      {
+        "tag": "p",
+        "text": "We let produce ripen properly and harvest close to delivery — no long cold-storage, no force-ripening."
+      },
+      {
+        "tag": "h3",
+        "text": "Fair to growers"
+      },
+      {
+        "tag": "p",
+        "text": "We work directly with local growers and pay them fairly. A shorter chain is better for everyone."
+      },
+      {
+        "tag": "h3",
+        "text": "Gentle on the planet"
+      },
+      {
+        "tag": "p",
+        "text": "Spray-conscious growing, plastic-light packing and as little waste as we can manage."
+      },
+      {
+        "tag": "h3",
+        "text": "Honest always"
+      },
+      {
+        "tag": "p",
+        "text": "Clear pricing, clear provenance, and real people to talk to when you need us."
+      },
+      {
+        "tag": "img",
+        "src": "/reference/img-photos-contact-market.webp",
+        "alt": "Seasonal citrus and vegetables on a market stall"
+      },
+      {
+        "tag": "h2",
+        "text": "We grow with the calendar, not against it."
+      },
+      {
+        "tag": "p",
+        "text": "Eating in season means better flavour, better value and a lighter footprint. Our range shifts through the year, so what we supply is genuinely what's at its best right now."
+      },
+      {
+        "tag": "p",
+        "text": "When our own farm can't supply something, we source it from growers who share our standards — and we'll always tell you where it came from."
+      },
+      {
+        "tag": "h2",
+        "text": "Snapshots from Bullsbrook."
+      },
+      {
+        "tag": "p",
+        "text": "Harvest days, market mornings and the soil it all starts with."
+      },
+      {
+        "tag": "img",
+        "src": "/reference/img-photos-farm-harvest.webp",
+        "alt": "Crates of produce being brought in by tractor on the farm"
+      },
+      {
+        "tag": "img",
+        "src": "/reference/img-photos-contact-market.webp",
+        "alt": "Crates of oranges and fresh produce on a market stall"
+      },
+      {
+        "tag": "img",
+        "src": "/reference/img-photos-sustainability.webp",
+        "alt": "A historic photograph of a market garden"
+      },
+      {
+        "tag": "img",
+        "src": "/reference/img-gallery-bok-choy.webp",
+        "alt": "Bunches of bok choy"
+      },
+      {
+        "tag": "img",
+        "src": "/reference/img-gallery-apple-basket.webp",
+        "alt": "A basket of red apples on grass"
+      },
+      {
+        "tag": "img",
+        "src": "/reference/img-gallery-truss-tomatoes.webp",
+        "alt": "Ripe truss tomatoes"
+      },
+      {
+        "tag": "img",
+        "src": "/reference/img-gallery-market-table.webp",
+        "alt": "A market table piled with vegetables"
+      },
+      {
+        "tag": "img",
+        "src": "/reference/img-gallery-blueberry-bush.webp",
+        "alt": "Blueberries ripening on the bush"
+      },
+      {
+        "tag": "img",
+        "src": "/reference/img-gallery-kent-pumpkins.webp",
+        "alt": "A stack of green-skinned pumpkins"
+      },
+      {
+        "tag": "img",
+        "src": "/reference/img-gallery-citrus-tree.webp",
+        "alt": "An orange ripening on the tree"
+      },
+      {
+        "tag": "img",
+        "src": "/reference/img-gallery-capsicum-rows.webp",
+        "alt": "Rows of capsicum plants in a field"
+      },
+      {
+        "tag": "img",
+        "src": "/reference/img-gallery-beetroot.webp",
+        "alt": "A pile of freshly pulled beetroot"
+      },
+      {
+        "tag": "img",
+        "src": "/reference/img-gallery-onions.webp",
+        "alt": "Crates of red and brown onions and limes"
+      },
+      {
+        "tag": "h2",
+        "text": "Taste the difference this season."
+      },
+      {
+        "tag": "p",
+        "text": "Fresh, seasonal and grown with care — for your restaurant or your home kitchen."
+      }
+    ]
+  },
+  "/our-team": {
+    "title": "The people behind the harvest.",
+    "blocks": [
+      {
+        "tag": "p",
+        "text": "A small family team — growing, packing and delivering the produce that ends up in Perth's kitchens."
+      },
+      {
+        "tag": "li",
+        "text": "Founder & Head Grower"
+      },
+      {
+        "tag": "li",
+        "text": "Farm Operations"
+      },
+      {
+        "tag": "li",
+        "text": "Wholesale & Customer Care"
+      },
+      {
+        "tag": "li",
+        "text": "Packing & Delivery"
+      },
+      {
+        "tag": "h2",
+        "text": "Want to grow with us?"
+      },
+      {
+        "tag": "p",
+        "text": "We're always keen to hear from people who love good food and hard work. Say hello and tell us a bit about yourself."
+      }
+    ]
+  },
+  "/sustainability": {
+    "title": "Good food shouldn't cost the earth.",
+    "blocks": [
+      {
+        "tag": "p",
+        "text": "We're a small farm with big intentions. Here's how we try to do right by the land, our growers and your kitchen."
+      },
+      {
+        "tag": "h3",
+        "text": "Spray-conscious growing"
+      },
+      {
+        "tag": "p",
+        "text": "We minimise chemical inputs, use integrated pest management and grow certified-organic lines where we can. We're transparent about how each item is grown."
+      },
+      {
+        "tag": "h3",
+        "text": "Plastic-light packaging"
+      },
+      {
+        "tag": "p",
+        "text": "Recyclable and compostable materials wherever possible, reusable delivery crates, and no single-use plastic when we can avoid it."
+      },
+      {
+        "tag": "h3",
+        "text": "Shorter supply chains"
+      },
+      {
+        "tag": "p",
+        "text": "Harvest-to-order and local sourcing mean fewer food miles and produce that lasts longer in your kitchen."
+      },
+      {
+        "tag": "h3",
+        "text": "Less food waste"
+      },
+      {
+        "tag": "p",
+        "text": "We sell \"imperfect\" produce proudly, compost what we can't sell, and donate surplus to local community groups."
+      },
+      {
+        "tag": "h3",
+        "text": "Seasonal by design"
+      },
+      {
+        "tag": "p",
+        "text": "Growing with the seasons needs less energy and water — and tastes better, too."
+      },
+      {
+        "tag": "h3",
+        "text": "Caring for soil"
+      },
+      {
+        "tag": "p",
+        "text": "Crop rotation, cover crops and composting keep our soil alive and productive for the long term."
+      },
+      {
+        "tag": "h2",
+        "text": "Always improving, never greenwashing."
+      },
+      {
+        "tag": "p",
+        "text": "We're honest that we're at the start of our journey. We won't claim to be perfect — instead we'll keep measuring our impact and sharing real progress with you, season by season."
+      },
+      {
+        "tag": "p",
+        "text": "If you have ideas for how we can do better, we genuinely want to hear them."
+      },
+      {
+        "tag": "img",
+        "src": "/reference/img-photos-sustainability.webp",
+        "alt": "A historic photograph of a market garden"
+      }
+    ]
+  },
+  "/wholesale-supply": {
+    "title": "Fresh produce for your business.",
+    "blocks": [
+      {
+        "tag": "p",
+        "text": "We supply restaurants, cafés, caterers, grocers and food businesses across Perth with farm-fresh seasonal fruit and vegetables — delivered reliably, priced fairly."
+      },
+      {
+        "tag": "h2",
+        "text": "Built for kitchens that care about quality"
+      },
+      {
+        "tag": "h3",
+        "text": "Seasonal & peak-ripeness"
+      },
+      {
+        "tag": "p",
+        "text": "We harvest to order — your kitchen gets produce at its best, not weeks-old cold-store stock."
+      },
+      {
+        "tag": "h3",
+        "text": "Reliable weekly delivery"
+      },
+      {
+        "tag": "p",
+        "text": "A consistent delivery schedule across Perth metro, worked around your prep days and service windows."
+      },
+      {
+        "tag": "h3",
+        "text": "Wholesale pricing"
+      },
+      {
+        "tag": "p",
+        "text": "Competitive volume-based pricing with no lock-in contracts. Order what you need, when you need it."
+      },
+      {
+        "tag": "h3",
+        "text": "Easy ordering portal"
+      },
+      {
+        "tag": "p",
+        "text": "Your own online ordering portal — pick quantities, submit, and it lands straight in our packing queue."
+      },
+      {
+        "tag": "h3",
+        "text": "Local & traceable"
+      },
+      {
+        "tag": "p",
+        "text": "We grow our own and source the rest from trusted WA growers. Full traceability from paddock to plate."
+      },
+      {
+        "tag": "h3",
+        "text": "Real people, real service"
+      },
+      {
+        "tag": "p",
+        "text": "You deal directly with our team — no call centres, no automated runaround. We pick up the phone."
+      },
+      {
+        "tag": "h2",
+        "text": "Seasonal produce, year-round"
+      },
+      {
+        "tag": "h3",
+        "text": "Fresh vegetables"
+      },
+      {
+        "tag": "p",
+        "text": "Leafy greens, root vegetables, brassicas, cucurbits, alliums and more — whatever's at its peak this week."
+      },
+      {
+        "tag": "h3",
+        "text": "Fresh fruit"
+      },
+      {
+        "tag": "p",
+        "text": "Stone fruit, citrus, berries, melons and tropical fruit from our farm and partner growers across WA."
+      },
+      {
+        "tag": "h3",
+        "text": "Herbs & aromatics"
+      },
+      {
+        "tag": "p",
+        "text": "Basil, coriander, mint, rosemary, chillies and specialty herbs — cut fresh for flavour and shelf life."
+      },
+      {
+        "tag": "img",
+        "src": "/reference/img-photos-farm-harvest.webp",
+        "alt": "Fresh produce ready for wholesale delivery"
+      },
+      {
+        "tag": "h2",
+        "text": "From our farm to your kitchen."
+      },
+      {
+        "tag": "h3",
+        "text": "Apply"
+      },
+      {
+        "tag": "p",
+        "text": "Fill in our short trade application. We verify your ABN and review within 1–2 business days."
+      },
+      {
+        "tag": "h3",
+        "text": "Get portal access"
+      },
+      {
+        "tag": "p",
+        "text": "Once approved, you'll receive your login for our wholesale ordering portal."
+      },
+      {
+        "tag": "h3",
+        "text": "Order online"
+      },
+      {
+        "tag": "p",
+        "text": "Pick quantities by the kilo, bunch or box and submit — or call us, we're flexible."
+      },
+      {
+        "tag": "h3",
+        "text": "We pick & deliver"
+      },
+      {
+        "tag": "p",
+        "text": "We harvest to your order, pack it fresh and deliver on your scheduled day."
+      },
+      {
+        "tag": "h2",
+        "text": "Common questions"
+      },
+      {
+        "tag": "details",
+        "title": "Is there a minimum order?",
+        "text": "Delivered orders have a $159 minimum, and some items have minimum quantities (e.g. 5 kg for bulk vegetables) to keep things fresh and fairly priced."
+      },
+      {
+        "tag": "details",
+        "title": "What areas do you deliver to?",
+        "text": "We deliver across Perth. If you're outside our standard zone, get in touch and we'll see what we can do."
+      },
+      {
+        "tag": "details",
+        "title": "How does pricing work?",
+        "text": "Wholesale prices are shown in the ordering portal and are typically lower than retail. No lock-in contracts — order as much or as little as you need each week."
+      },
+      {
+        "tag": "details",
+        "title": "Can I order by phone or email?",
+        "text": "The portal is the fastest way to order, but yes — you can also call or email us and we'll process your order manually."
+      },
+      {
+        "tag": "details",
+        "title": "Do you supply organic produce?",
+        "text": "We offer certified-organic lines where available and grow spray-conscious produce on our own farm. Organic items are clearly marked in the portal."
+      },
+      {
+        "tag": "h2",
+        "text": "Ready to upgrade your kitchen's supply chain?"
+      },
+      {
+        "tag": "p",
+        "text": "Join Perth kitchens that trust 21 Ananta for farm-fresh, seasonal produce delivered reliably every week."
+      }
+    ]
+  },
+  "/delivery-and-faq": {
+    "title": "Delivery & FAQ",
+    "blocks": [
+      {
+        "tag": "p",
+        "text": "Everything you need to know about delivery, our produce and how we work."
+      },
+      {
+        "tag": "h3",
+        "text": "Free over $399"
+      },
+      {
+        "tag": "p",
+        "text": "Delivery is $19.99 on orders from $159, and free when you spend over $399. Farm pickup is always free."
+      },
+      {
+        "tag": "h3",
+        "text": "Choose your window"
+      },
+      {
+        "tag": "p",
+        "text": "Pick a morning, afternoon or evening slot. We harvest to order and confirm your delivery day by email."
+      },
+      {
+        "tag": "h3",
+        "text": "Farm pickup"
+      },
+      {
+        "tag": "p",
+        "text": "Prefer to collect? Choose pickup from Bullsbrook and we'll have your order packed and ready."
+      },
+      {
+        "tag": "h2",
+        "text": "Ordering"
+      },
+      {
+        "tag": "details",
+        "title": "How do I place an order?",
+        "text": "Our online shop for home customers is opening soon. In the meantime, get in touch and we'll help you directly. Businesses can apply for a wholesale account today."
+      },
+      {
+        "tag": "details",
+        "title": "Is there a minimum order?",
+        "text": "Delivered orders have a $159 minimum, and orders over $399 ship free. There's no minimum for farm pickup. Some wholesale items have minimum quantities."
+      },
+      {
+        "tag": "details",
+        "title": "Do you supply restaurants and cafés?",
+        "text": "Yes — wholesale supply is a big part of what we do. Apply for a trade account and, once approved, order through our wholesale portal."
+      },
+      {
+        "tag": "h2",
+        "text": "Delivery"
+      },
+      {
+        "tag": "details",
+        "title": "Where do you deliver?",
+        "text": "Right across the Perth metropolitan area — both north and south of the river. Farm pickup from Bullsbrook is also available."
+      },
+      {
+        "tag": "details",
+        "title": "When will my order arrive?",
+        "text": "You choose a delivery window. Because we harvest to order, we confirm your delivery day by email."
+      },
+      {
+        "tag": "details",
+        "title": "How much is delivery?",
+        "text": "Standard delivery is $19.99 (minimum order $159), and it's free on orders over $399. Pickup is always free."
+      },
+      {
+        "tag": "h2",
+        "text": "Our produce"
+      },
+      {
+        "tag": "details",
+        "title": "How fresh is the produce?",
+        "text": "We harvest to order wherever possible, so most produce is picked within a day of reaching you. Anything we source from partner growers is selected the same way — at peak ripeness."
+      },
+      {
+        "tag": "details",
+        "title": "Is everything organic?",
+        "text": "Some of our produce is certified organic, and across the farm we grow spray-conscious and sustainably. We're always happy to tell you exactly how something was grown."
+      },
+      {
+        "tag": "details",
+        "title": "Why is there no GST on my fruit and veg?",
+        "text": "Basic fresh fruit and vegetables are GST-free in Australia. GST only applies to certain taxable items, and where it does, it's already included in the price shown."
+      },
+      {
+        "tag": "h2",
+        "text": "If something's not right"
+      },
+      {
+        "tag": "details",
+        "title": "What if something isn't right?",
+        "text": "Your satisfaction is covered by the Australian Consumer Law. If any produce arrives not of acceptable quality, contact us within 24 hours and we'll replace or refund it."
+      },
+      {
+        "tag": "p",
+        "text": "Still have a question?"
+      }
+    ]
+  },
+  "/contact": {
+    "title": "We'd love to hear from you.",
+    "blocks": [
+      {
+        "tag": "p",
+        "text": "Questions about our produce, wholesale & restaurant supply, or delivery? Drop us a line — a real person will reply."
+      },
+      {
+        "tag": "h2",
+        "text": "Send us a message"
+      },
+      {
+        "tag": "h2",
+        "text": "Get in touch"
+      },
+      {
+        "tag": "img",
+        "src": "/reference/img-photos-contact-market.webp",
+        "alt": "Fresh produce at the market"
+      }
+    ]
+  },
+  "/wholesale/apply": {
+    "title": "Open a trade account.",
+    "blocks": [
+      {
+        "tag": "p",
+        "text": "Restaurants, cafés, grocers & caterers — tell us about your business and we'll set you up with wholesale access. It takes about two minutes."
+      },
+      {
+        "tag": "h2",
+        "text": "Farm-fresh supply, without the runaround."
+      },
+      {
+        "tag": "li",
+        "text": "Wholesale pricingVolume-based prices, no lock-in contracts."
+      },
+      {
+        "tag": "li",
+        "text": "Your own ordering portalOrder in minutes, see your history, reorder fast."
+      },
+      {
+        "tag": "li",
+        "text": "Weekly Perth deliveryNorth & south of the river, around your prep days."
+      },
+      {
+        "tag": "li",
+        "text": "Quick approvalWe verify your ABN and reply within 1–2 business days."
+      },
+      {
+        "tag": "li",
+        "text": "1Your business"
+      },
+      {
+        "tag": "li",
+        "text": "2Contact & delivery"
+      },
+      {
+        "tag": "li",
+        "text": "3Review"
+      },
+      {
+        "tag": "p",
+        "text": " Your details are only used to assess and run your trade account. Questions? hello@21anantafarmersmarket.com.au"
+      }
+    ]
+  },
+  "/food-safety": {
+    "title": "Food Safety & Handling",
+    "blocks": [
+      {
+        "tag": "p",
+        "text": "How we keep your produce safe — and how to store it well."
+      },
+      {
+        "tag": "p",
+        "text": "Policies"
+      },
+      {
+        "tag": "p",
+        "text": "Last updated: 27 September 2026"
+      },
+      {
+        "tag": "p",
+        "text": "We handle, pack and deliver fresh produce in line with Australian food safety requirements, including the Food Standards Australia New Zealand (FSANZ) Food Standards Code and applicable Western Australian food safety laws."
+      },
+      {
+        "tag": "h2",
+        "text": "Our practices"
+      },
+      {
+        "tag": "li",
+        "text": "Clean handling — produce is handled with good hygiene, clean equipment and clean hands at every step."
+      },
+      {
+        "tag": "li",
+        "text": "Cool chain — perishable items are kept cool from harvest through to delivery wherever possible."
+      },
+      {
+        "tag": "li",
+        "text": "Careful sourcing — produce we don't grow ourselves comes from trusted local growers who share our standards."
+      },
+      {
+        "tag": "li",
+        "text": "Traceability — we keep records so we can trace produce back to its source if ever needed."
+      },
+      {
+        "tag": "li",
+        "text": "Washing — some produce is washed before packing; some is not, to extend shelf life. Always wash produce before eating."
+      },
+      {
+        "tag": "h2",
+        "text": "Allergen & cross-contact information"
+      },
+      {
+        "tag": "p",
+        "text": "While fruit and vegetables are not common allergens, our produce may be grown, handled or packed in facilities that also handle nuts, gluten or other allergens. We cannot guarantee an allergen-free environment. If you have a serious allergy, please contact us before ordering."
+      },
+      {
+        "tag": "h2",
+        "text": "Storing your produce"
+      },
+      {
+        "tag": "li",
+        "text": "Refrigerate promptly — store leafy greens, berries and most vegetables in the fridge as soon as you can."
+      },
+      {
+        "tag": "li",
+        "text": "Keep some at room temperature — tomatoes, bananas, potatoes, onions and garlic do best in a cool, dark, dry spot."
+      },
+      {
+        "tag": "li",
+        "text": "Wash before eating — rinse fresh produce under running water before preparing or eating."
+      },
+      {
+        "tag": "li",
+        "text": "Separate — keep fresh produce away from raw meat and its juices."
+      },
+      {
+        "tag": "li",
+        "text": "Use your senses — when in doubt, throw it out."
+      },
+      {
+        "tag": "h2",
+        "text": "If you have a concern"
+      },
+      {
+        "tag": "p",
+        "text": "If you ever have a food safety concern about something from us, stop using the product and contact us immediately at hello@21anantafarmersmarket.com.au so we can investigate."
+      },
+      {
+        "tag": "h2",
+        "text": "More information"
+      },
+      {
+        "tag": "p",
+        "text": "For general food safety advice, see foodstandards.gov.au."
+      }
+    ]
+  },
+  "/shipping-and-delivery": {
+    "title": "Shipping & Delivery Policy",
+    "blocks": [
+      {
+        "tag": "p",
+        "text": "How, when and where we deliver your fresh produce."
+      },
+      {
+        "tag": "p",
+        "text": "Policies"
+      },
+      {
+        "tag": "p",
+        "text": "Last updated: 27 September 2026"
+      },
+      {
+        "tag": "h2",
+        "text": "Delivery areas"
+      },
+      {
+        "tag": "p",
+        "text": "We deliver across the Perth metropolitan area — both north and south of the river. We're expanding coverage as we grow; if we don't reach you yet, farm pickup from Bullsbrook is always available."
+      },
+      {
+        "tag": "h2",
+        "text": "Delivery fees"
+      },
+      {
+        "tag": "li",
+        "text": "Standard delivery: $19.99 within our delivery zones."
+      },
+      {
+        "tag": "li",
+        "text": "Minimum order for delivery: $159."
+      },
+      {
+        "tag": "li",
+        "text": "Free delivery on orders over $399."
+      },
+      {
+        "tag": "li",
+        "text": "Farm pickup is always free."
+      },
+      {
+        "tag": "h2",
+        "text": "Delivery windows & timing"
+      },
+      {
+        "tag": "p",
+        "text": "You can choose a preferred delivery window (morning, afternoon or evening). Because we harvest to order, we'll confirm your delivery day by email. We aim to deliver within the chosen window but can't guarantee an exact time."
+      },
+      {
+        "tag": "h2",
+        "text": "Pickup"
+      },
+      {
+        "tag": "p",
+        "text": "If you select pickup, we'll let you know when your order is packed and ready, along with pickup times."
+      },
+      {
+        "tag": "h2",
+        "text": "Keeping produce fresh"
+      },
+      {
+        "tag": "p",
+        "text": "Where a delivery is left unattended at your request, please refrigerate perishable items as soon as possible. Risk in the goods passes to you on delivery or collection."
+      },
+      {
+        "tag": "h2",
+        "text": "Failed or missed deliveries"
+      },
+      {
+        "tag": "p",
+        "text": "If we can't complete a delivery because no one is available and no safe-drop instructions were given, we'll contact you to arrange a solution. Additional delivery attempts may incur a further fee."
+      },
+      {
+        "tag": "h2",
+        "text": "Problems with your delivery"
+      },
+      {
+        "tag": "p",
+        "text": "If your order arrives late, incomplete, or any item is not of acceptable quality, contact us within 24 hours — see our Returns & Refunds Policy. Your rights under the Australian Consumer Law always apply."
+      },
+      {
+        "tag": "h2",
+        "text": "Contact"
+      },
+      {
+        "tag": "p",
+        "text": "Delivery questions? Email hello@21anantafarmersmarket.com.au."
+      }
+    ]
+  },
+  "/privacy-policy": {
+    "title": "Privacy Policy",
+    "blocks": [
+      {
+        "tag": "p",
+        "text": "How 21 Ananta Farmers Market Pty Ltd collects, uses and protects your personal information."
+      },
+      {
+        "tag": "p",
+        "text": "Policies"
+      },
+      {
+        "tag": "p",
+        "text": "Last updated: 27 September 2026"
+      },
+      {
+        "tag": "p",
+        "text": "21 Ananta Farmers Market Pty Ltd (“we”, “us”, “our”) is committed to protecting your privacy. This policy explains how we handle personal information in accordance with the Privacy Act 1988 (Cth) and the Australian Privacy Principles (APPs)."
+      },
+      {
+        "tag": "h2",
+        "text": "1. What information we collect"
+      },
+      {
+        "tag": "li",
+        "text": "Identity & contact details — your name, email address, phone number and delivery address."
+      },
+      {
+        "tag": "li",
+        "text": "Business details — for trade accounts, your business name, ABN/ACN, business type and delivery location."
+      },
+      {
+        "tag": "li",
+        "text": "Order information — the products you buy, order history and delivery preferences."
+      },
+      {
+        "tag": "li",
+        "text": "Payment information — payments are processed by a third-party payment provider. We do not store full card numbers on our servers."
+      },
+      {
+        "tag": "li",
+        "text": "Technical data — cookies and basic analytics such as device type and pages visited, to keep the site working and improve it."
+      },
+      {
+        "tag": "h2",
+        "text": "2. How we collect it"
+      },
+      {
+        "tag": "p",
+        "text": "We collect information directly from you when you apply for a trade account, place an order, subscribe to our newsletter, or contact us. We also collect some technical information automatically through cookies (see section 8)."
+      },
+      {
+        "tag": "h2",
+        "text": "3. Why we collect and use it"
+      },
+      {
+        "tag": "li",
+        "text": "To assess trade applications, including verifying ABNs with the Australian Business Register."
+      },
+      {
+        "tag": "li",
+        "text": "To process and deliver your orders and provide customer support."
+      },
+      {
+        "tag": "li",
+        "text": "To send order confirmations and service messages."
+      },
+      {
+        "tag": "li",
+        "text": "To send marketing communications where you have opted in (you can opt out anytime)."
+      },
+      {
+        "tag": "li",
+        "text": "To meet our legal and tax obligations."
+      },
+      {
+        "tag": "li",
+        "text": "To improve our products, website and service."
+      },
+      {
+        "tag": "h2",
+        "text": "4. Disclosure to third parties"
+      },
+      {
+        "tag": "p",
+        "text": "We only share your information with parties who help us run our business, such as delivery providers, our email provider and our payment processor. We require them to protect your information. We do not sell your personal information. We will not disclose your information overseas unless required to provide a service to you, and only with appropriate safeguards."
+      },
+      {
+        "tag": "h2",
+        "text": "5. Direct marketing"
+      },
+      {
+        "tag": "p",
+        "text": "We will only send you marketing emails if you have opted in. Every marketing email includes an unsubscribe link, and you can also email us to opt out at any time."
+      },
+      {
+        "tag": "h2",
+        "text": "6. Security"
+      },
+      {
+        "tag": "p",
+        "text": "We take reasonable steps to protect your personal information from misuse, loss and unauthorised access, including secure (HTTPS) connections and restricted access to data. No method of transmission over the internet is completely secure, but we work hard to safeguard your information."
+      },
+      {
+        "tag": "h2",
+        "text": "7. Access and correction"
+      },
+      {
+        "tag": "p",
+        "text": "You may request access to, or correction of, your personal information by contacting us. We will respond within a reasonable period."
+      },
+      {
+        "tag": "h2",
+        "text": "8. Cookies"
+      },
+      {
+        "tag": "p",
+        "text": "We use one essential cookie to remember your cookie choice and, with your consent, analytics cookies (Google Analytics) to understand how the site is used. Read our full Cookie Policy for details."
+      },
+      {
+        "tag": "h2",
+        "text": "9. Retention"
+      },
+      {
+        "tag": "p",
+        "text": "We keep your personal information only as long as necessary for the purposes above or as required by law (for example, tax records must be kept for the period required by the Australian Taxation Office)."
+      },
+      {
+        "tag": "h2",
+        "text": "10. Complaints"
+      },
+      {
+        "tag": "p",
+        "text": "If you have a privacy concern, please contact us first at hello@21anantafarmersmarket.com.au. If you're not satisfied with our response, you can contact the Office of the Australian Information Commissioner (OAIC) at oaic.gov.au."
+      },
+      {
+        "tag": "h2",
+        "text": "11. Contact us"
+      },
+      {
+        "tag": "p",
+        "text": "21 Ananta Farmers Market Pty LtdEmail: hello@21anantafarmersmarket.com.auACN: 699 516 893"
+      }
+    ]
+  },
+  "/cookie-policy": {
+    "title": "Cookie Policy",
+    "blocks": [
+      {
+        "tag": "p",
+        "text": "What cookies we use and why."
+      },
+      {
+        "tag": "p",
+        "text": "Policies"
+      },
+      {
+        "tag": "p",
+        "text": "Last updated: 27 September 2026"
+      },
+      {
+        "tag": "p",
+        "text": "21 Ananta Farmers Market Pty Ltd (“we”, “us”, “our”) uses a small number of cookies on this website. This page explains what they are and how you can manage them."
+      },
+      {
+        "tag": "h2",
+        "text": "1. What are cookies?"
+      },
+      {
+        "tag": "p",
+        "text": "Cookies are small text files stored on your device by your browser when you visit a website. They help the site remember your actions and preferences."
+      },
+      {
+        "tag": "h2",
+        "text": "2. Essential cookies"
+      },
+      {
+        "tag": "p",
+        "text": "These are strictly necessary for the site to work as you'd expect, so they don't need your consent."
+      },
+      {
+        "tag": "h2",
+        "text": "3. Analytics cookies"
+      },
+      {
+        "tag": "p",
+        "text": "We use Google Analytics (GA4) to understand how visitors use our site — for example, which pages are most popular. These cookies are only set after you choose “Accept all” in the cookie banner."
+      },
+      {
+        "tag": "p",
+        "text": "Google's privacy policy is at policies.google.com/privacy. You can also opt out of Google Analytics on all websites with the Google Analytics Opt-out Browser Add-on."
+      },
+      {
+        "tag": "h2",
+        "text": "4. No advertising or tracking cookies"
+      },
+      {
+        "tag": "p",
+        "text": "We do not use advertising cookies, social media tracking pixels or other third-party tracking. We do not sell or share your browsing data with advertisers."
+      },
+      {
+        "tag": "h2",
+        "text": "5. Managing your cookies"
+      },
+      {
+        "tag": "p",
+        "text": "You can change your preference at any time:"
+      },
+      {
+        "tag": "p",
+        "text": "Change cookie preferences"
+      },
+      {
+        "tag": "p",
+        "text": "You can also delete or block cookies in your browser settings."
+      },
+      {
+        "tag": "h2",
+        "text": "6. Changes to this policy"
+      },
+      {
+        "tag": "p",
+        "text": "We may update this policy from time to time. The “last updated” date above reflects the latest revision."
+      },
+      {
+        "tag": "h2",
+        "text": "7. Contact us"
+      },
+      {
+        "tag": "p",
+        "text": "Questions about cookies? Email hello@21anantafarmersmarket.com.au."
+      }
+    ]
+  },
+  "/terms-of-sale": {
+    "title": "Terms of Sale",
+    "blocks": [
+      {
+        "tag": "p",
+        "text": "The terms that apply when you buy from 21 Ananta Farmers Market Pty Ltd."
+      },
+      {
+        "tag": "p",
+        "text": "Policies"
+      },
+      {
+        "tag": "p",
+        "text": "Last updated: 27 September 2026"
+      },
+      {
+        "tag": "p",
+        "text": "These Terms of Sale govern your purchase of products from 21 Ananta Farmers Market Pty Ltd (“we”, “us”, “our”), whether retail or wholesale. By placing an order, you agree to these terms. Please read them with our Privacy Policy, Returns & Refunds Policy and Shipping & Delivery Policy."
+      },
+      {
+        "tag": "h2",
+        "text": "1. About us"
+      },
+      {
+        "tag": "p",
+        "text": "21 Ananta Farmers Market Pty Ltd is an Australian business selling fresh fruit, vegetables and related products. Our ACN is 699 516 893."
+      },
+      {
+        "tag": "h2",
+        "text": "2. Orders"
+      },
+      {
+        "tag": "li",
+        "text": "An order is an offer to buy. Your order is accepted when we send you an order confirmation."
+      },
+      {
+        "tag": "li",
+        "text": "We may decline or cancel an order — for example if a product is unavailable, there is a pricing error, or we cannot deliver to your area. If we cancel, we will refund any payment already made."
+      },
+      {
+        "tag": "li",
+        "text": "Because we sell fresh produce, exact weights and sizes can vary slightly. We pick the best available and aim to match your order as closely as possible."
+      },
+      {
+        "tag": "h2",
+        "text": "3. Prices and GST"
+      },
+      {
+        "tag": "li",
+        "text": "All prices are in Australian dollars (AUD)."
+      },
+      {
+        "tag": "li",
+        "text": "Basic fresh fruit and vegetables are GST-free under the A New Tax System (Goods and Services Tax) Act 1999. Where a product is taxable, the price shown includes GST and this is itemised on your tax invoice."
+      },
+      {
+        "tag": "li",
+        "text": "Delivery fees (if any) are shown before you pay."
+      },
+      {
+        "tag": "li",
+        "text": "We may change prices at any time, but changes won't affect orders we've already accepted."
+      },
+      {
+        "tag": "h2",
+        "text": "4. Payment"
+      },
+      {
+        "tag": "p",
+        "text": "Online payments are processed securely by our payment provider, Stripe. We accept major cards and supported wallets such as Apple Pay and Google Pay. Your card details are handled by Stripe and never stored on our servers."
+      },
+      {
+        "tag": "h2",
+        "text": "5. Delivery and pickup"
+      },
+      {
+        "tag": "p",
+        "text": "Delivery and pickup are covered by our Shipping & Delivery Policy. Risk in the products passes to you on delivery or collection."
+      },
+      {
+        "tag": "h2",
+        "text": "6. Your consumer rights"
+      },
+      {
+        "tag": "p",
+        "text": "Our products come with guarantees that cannot be excluded under the Australian Consumer Law. Nothing in these terms limits those rights. See our Returns & Refunds Policy for how to make a claim."
+      },
+      {
+        "tag": "h2",
+        "text": "7. Food safety and allergens"
+      },
+      {
+        "tag": "p",
+        "text": "We handle fresh produce in line with Australian food safety standards (see Food Safety). Produce may be grown or packed in facilities that also handle allergens. Always wash fresh produce before eating."
+      },
+      {
+        "tag": "h2",
+        "text": "8. Cancellations and changes"
+      },
+      {
+        "tag": "p",
+        "text": "If you need to change or cancel an order, contact us as soon as possible. Because produce is picked to order, we may not be able to change an order once it has been packed or dispatched."
+      },
+      {
+        "tag": "h2",
+        "text": "9. Trade accounts"
+      },
+      {
+        "tag": "p",
+        "text": "Trade accounts are offered at our discretion to businesses with a valid ABN. You are responsible for keeping your portal login secure and for orders placed through it. Let us know immediately if you suspect unauthorised use."
+      },
+      {
+        "tag": "h2",
+        "text": "10. Liability"
+      },
+      {
+        "tag": "p",
+        "text": "To the extent permitted by law, and subject to your rights under the Australian Consumer Law, our liability for any product is limited to replacing the product or refunding its price."
+      },
+      {
+        "tag": "h2",
+        "text": "11. Governing law"
+      },
+      {
+        "tag": "p",
+        "text": "These terms are governed by the laws of Western Australia and the Commonwealth of Australia. Disputes are subject to the jurisdiction of the courts of Western Australia."
+      },
+      {
+        "tag": "h2",
+        "text": "12. Contact"
+      },
+      {
+        "tag": "p",
+        "text": "Questions about these terms? Email hello@21anantafarmersmarket.com.au."
+      }
+    ]
+  },
+  "/returns-and-refunds": {
+    "title": "Returns & Refunds Policy",
+    "blocks": [
+      {
+        "tag": "p",
+        "text": "Your rights under the Australian Consumer Law, and how we make things right."
+      },
+      {
+        "tag": "p",
+        "text": "Policies"
+      },
+      {
+        "tag": "p",
+        "text": "Last updated: 27 September 2026"
+      },
+      {
+        "tag": "h2",
+        "text": "Your rights under the Australian Consumer Law"
+      },
+      {
+        "tag": "p",
+        "text": "Our goods come with guarantees that cannot be excluded under the Australian Consumer Law (ACL). Among other things, the produce we sell must be:"
+      },
+      {
+        "tag": "li",
+        "text": "of acceptable quality — safe, lasting and free from defects, given that it is fresh, perishable produce;"
+      },
+      {
+        "tag": "li",
+        "text": "fit for purpose and matching its description; and"
+      },
+      {
+        "tag": "li",
+        "text": "as shown in any sample or demonstration."
+      },
+      {
+        "tag": "p",
+        "text": "You are entitled to a replacement or refund for a major failure, and to compensation for any other reasonably foreseeable loss or damage. If the failure is minor, we may choose to replace the item or refund you."
+      },
+      {
+        "tag": "h2",
+        "text": "Fresh produce — a quick note"
+      },
+      {
+        "tag": "p",
+        "text": "Fruit and vegetables are perishable, and natural variation in size, shape and colour is normal and not a fault. If produce arrives damaged, spoiled or not of acceptable quality, you are covered."
+      },
+      {
+        "tag": "h2",
+        "text": "If something isn't right"
+      },
+      {
+        "tag": "p",
+        "text": "Please check your order on arrival and contact us within 24 hours of delivery or pickup if anything is not of acceptable quality. Email hello@21anantafarmersmarket.com.au with:"
+      },
+      {
+        "tag": "li",
+        "text": "your order number;"
+      },
+      {
+        "tag": "li",
+        "text": "the item(s) affected; and"
+      },
+      {
+        "tag": "li",
+        "text": "a quick photo if you can — it helps us improve."
+      },
+      {
+        "tag": "h2",
+        "text": "How we'll fix it"
+      },
+      {
+        "tag": "li",
+        "text": "Replacement in your next delivery, or"
+      },
+      {
+        "tag": "li",
+        "text": "Refund or credit for the affected item(s), or"
+      },
+      {
+        "tag": "li",
+        "text": "a refund of the full order where there is a major failure."
+      },
+      {
+        "tag": "p",
+        "text": "For perishable goods we generally don't require you to return the item — we may simply ask for a photo. Approved refunds are made to your original payment method (or as credit if you prefer), usually within 5–10 business days of approval."
+      },
+      {
+        "tag": "h2",
+        "text": "Change of mind"
+      },
+      {
+        "tag": "p",
+        "text": "As we sell fresh, perishable food picked to order, we're generally unable to accept returns for change of mind once an order is packed or dispatched. This does not affect your rights under the Australian Consumer Law."
+      },
+      {
+        "tag": "h2",
+        "text": "Cancellations"
+      },
+      {
+        "tag": "p",
+        "text": "If you need to cancel before your order is packed, contact us as soon as possible and we'll refund you in full. Once an order is picked, packed or dispatched, we may not be able to cancel it."
+      },
+      {
+        "tag": "h2",
+        "text": "Orders we can't fulfil"
+      },
+      {
+        "tag": "p",
+        "text": "If we're unable to supply all or part of your order (for example, a crop is unavailable), we'll let you know and refund the affected items."
+      },
+      {
+        "tag": "h2",
+        "text": "More information"
+      },
+      {
+        "tag": "p",
+        "text": "Read more about your consumer rights at accc.gov.au/consumers."
+      }
+    ]
+  }
+}
